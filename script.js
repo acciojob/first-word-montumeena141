@@ -1,8 +1,9 @@
 function firstWord(s) {
   // your code here
-	let sp=s.split(" ");
+	let tri=s.trim();
+	let sp=tri.split(" ");
 	return sp[0];
-	
+
 }
 
 // Do not change the code below
